@@ -23,7 +23,7 @@ function About() {
         in between flying and my continued education towards my bachelors
         degree. I encourage you to return often and explore for more updates and
         topics discussed. I also urge you to subscribe and get email updates
-        when new discussions are posted.{" "}
+        when new discussions are posted.
       </p>
     </div>
   );
