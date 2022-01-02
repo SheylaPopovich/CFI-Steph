@@ -2,6 +2,8 @@ import "./nav.css";
 import React, { useState } from "react";
 import Homepage from "../HomePage/Homepage";
 import Contact from "../Contact/Contact"
+import Blog from "../Blog/Blog";
+
 
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
