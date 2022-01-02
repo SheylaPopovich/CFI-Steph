@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Homepage from "../HomePage/Homepage";
 import Contact from "../Contact/Contact"
 import Blog from "../Blog/Blog";
-
+import Store from "../Store/Shop";
 
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
