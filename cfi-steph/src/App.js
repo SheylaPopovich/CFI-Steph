@@ -1,5 +1,7 @@
 import "./App.css";
-import Nav from "./components/Nav";
+import Contact from "./components/Contact/Contact";
+import Nav from "./components/NavBar/Nav";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <Switch>
         <Route exact path="" component={} />
         <Route exact path="" component={} />
-        <Route exact path="" component={} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
     </div>
   );
