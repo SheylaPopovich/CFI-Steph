@@ -1,4 +1,5 @@
 import React from "react";
+import "./nav.css";
 
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
@@ -34,9 +35,7 @@ function Nav() {
             <a className="navbar-item">Home</a>
 
             <div className="navbar-item has-dropdown is-hoverable">
-              <a href="" class="navbar-link">
-                Education
-              </a>
+              <a className="navbar-link">Education</a>
               <div className="navbar-dropdown">
                 <a className="navbar-item">Private Pilot Knowledge</a>
                 <a className="navbar-item">Instrument Rating Knowledge</a>
