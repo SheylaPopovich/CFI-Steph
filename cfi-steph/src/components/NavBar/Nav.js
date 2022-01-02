@@ -4,6 +4,7 @@ import Homepage from "../HomePage/Homepage";
 import Contact from "../Contact/Contact"
 import Blog from "../Blog/Blog";
 import Store from "../Store/Shop";
+import About from "../About/About";
 
 function Nav() {
   const [isActive, setisActive] = React.useState(false);
