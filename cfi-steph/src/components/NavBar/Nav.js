@@ -1,7 +1,7 @@
 import "./nav.css";
 import React, { useState } from "react";
 import Homepage from "../HomePage/Homepage";
-import Contact from "../Contact/Contact"
+import Contact from "../Contact/Contact";
 import Blog from "../Blog/Blog";
 import Store from "../Store/Shop";
 import About from "../About/About";
@@ -48,7 +48,13 @@ function Nav() {
           className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
           <div className="navbar-start">
-            <a className="navbar-item" href="#homepage" onClick={Homepage}>
+            <a
+              className="navbar-item"
+              href="#homepage"
+              onClick={() => {
+                setPage("homepage");
+              }}
+            >
               Home
             </a>
 
@@ -84,33 +90,42 @@ function Nav() {
               >
                 Contact
               </a>
-              <a className="navbar-item" href="#blog"
+              <a
+                className="navbar-item"
+                href="#blog"
                 onClick={() => {
                   setPage("blog");
-                }}>Blog</a>
+                }}
+              >
+                Blog
+              </a>
             </div>
           </div>
         </div>
       </nav>
 
-
       <div className="sections">
-        {page === "homepage" ? (
-       <Homepage />
-        ) : page === "contact" ? (
+        {page === "about" ? (
           <div>
-          <Contact />
+            <About />
           </div>
         ) : page === "shop" ? (
           <div>
-        
+            <Store />
+          </div>
+        ) : page === "contact" ? (
+          <div>
+            <Contact />
+          </div>
+        ) : page === "blog" ? (
+          <div>
+            <Blog />
           </div>
         ) : (
           <div>
-     
+            <Homepage />
           </div>
         )}
-  
       </div>
     </div>
   );
