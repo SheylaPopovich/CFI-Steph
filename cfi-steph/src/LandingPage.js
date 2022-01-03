@@ -1,17 +1,13 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-function LandingPage(props) {
+function LandingPage() {
     return (
         <div>
-            <h1>Will this work as a landing page</h1>
+            <h1>LANDING PAGE</h1>
         </div>
     )
 }
 
-LandingPage.propTypes = {
-
-}
-
 export default LandingPage
+
 

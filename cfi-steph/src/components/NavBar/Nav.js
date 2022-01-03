@@ -6,7 +6,10 @@ import Blog from "../Blog/Blog";
 import Store from "../Store/Shop";
 import About from "../About/About";
 
+
+
 function Nav() {
+  
   const [isActive, setisActive] = React.useState(false);
   const [page, setPage] = useState("Landing");
   function setHome() {
