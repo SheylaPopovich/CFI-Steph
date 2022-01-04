@@ -34,7 +34,7 @@ function Contact() {
             <Form.Group className="row mb-3 pe-4 ps-4">
               <textarea
                 name="textarea"
-                placeholder="Message me here"
+                placeholder="Please list any questions, comments, or concerns. Also, if there are any topics you'd like discussed on the site, let us know here."
                 class="mb-2 "
               ></textarea>
               <button type="submit" class="btn btn-dark">
