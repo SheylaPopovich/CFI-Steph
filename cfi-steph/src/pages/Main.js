@@ -38,7 +38,7 @@ function Main() {
         <button onClick={handleSubmit} type="submit">
           Submit
         </button>
-        <Button variant="btn btn-success" onClick={() => <HomePage />}>Click button to view products</Button>
+        <Button variant="btn btn-success" onClick={() => ('/Products') }>Click button to view products</Button>
       </form>
     </div>
     )
