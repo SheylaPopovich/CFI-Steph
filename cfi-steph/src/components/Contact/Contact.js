@@ -17,6 +17,7 @@ function Contact() {
               controlId="exampleForm.ControlInput1"
             >
               <h1 class="formTitles pb-2">Contact Me</h1>
+              <p>Use the form below to give us any feedback, ask questions, or give us topics that you would like discussed on this website.</p>
               <div class="row mb-3">
                 <Form.Label className="formTitles col-md-2">Name: </Form.Label>
                 <div class="col-md-10">

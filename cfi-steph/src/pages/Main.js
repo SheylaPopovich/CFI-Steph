@@ -12,7 +12,7 @@ function Main() {
   };
 
   return (
-    <Button variant="btn btn-success" onClick={Homepage} href="/homepage">
+    <Button variant="btn btn-success" onClick={Homepage} href="#homepage">
       Click button to view products
     </Button>
   );
