@@ -1,11 +1,11 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import Homepage from "../components/HomePage/Homepage";
-import { useHistory } from 'react-router-dom';
+// import Homepage from "../components/HomePage/Homepage";
+
 
 function Main() {
   return (
-    <Button variant="btn btn-success" onClick="/homepage" href="/homepage">
+    <Button  variant="btn btn-dark" onClick="/homepage" href="homepage">
       Click button to view products
     </Button>
   );
