@@ -19,7 +19,7 @@ function App() {
         </>
       </Router>
     
-      <Nav />
+      {/* <Nav /> */}
      
     </div>
 
