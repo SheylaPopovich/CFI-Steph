@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Main from "./pages/Main";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage/LandingPage";
+// import Homepage from "./components/HomePage/Homepage";
 
 
 
@@ -14,15 +15,19 @@ function App() {
    
     <Router>
         <>
-     
+        
+      <Nav />
           <Routes>
-            <Route exact path="/" element={ <LandingPage/> }></Route>
+            <Route exact path="/" element={ <LandingPage /> }>
+
+
+            </Route>
            
           </Routes>
         </>
       </Router>
     
-      <Nav />
+    
      
     </div>
 

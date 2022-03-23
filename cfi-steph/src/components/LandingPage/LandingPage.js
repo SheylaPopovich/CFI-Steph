@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import './LandingPage.css';
 // import Homepage from "../components/HomePage/Homepage";
 
 function LandingPage() {
@@ -7,6 +8,7 @@ function LandingPage() {
     <Button variant="btn btn-success" onClick="/#homepage" href="/homepage">
       ENTER STEPH'S SITE
     </Button>
+    
   );
 }
 
