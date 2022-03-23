@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 function LandingPage() {
   return (
     <Button variant="btn btn-success" onClick="/#contact" href="/contact">
-      Click button to view products
+      ENTER STEPH'S SITE
     </Button>
   );
 }
