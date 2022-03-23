@@ -9,3 +9,5 @@ function LandingPage() {
     </Button>
   );
 }
+
+export default LandingPage
